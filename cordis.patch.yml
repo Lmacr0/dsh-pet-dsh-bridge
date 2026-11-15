@@ -1,0 +1,4 @@
+# dsh-pet-dsh-bridge bundle patch: inserts this plugin as one loader row.
+- insert:
+    - id: pet-dsh-bridge
+      name: 'dsh-pet-dsh-bridge'

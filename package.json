@@ -1,0 +1,46 @@
+{
+  "name": "dsh-pet-dsh-bridge",
+  "version": "0.1.0",
+  "description": "Two-way bridge between dsh-pet and DSH sessions: the pet can read DSH session history, and pet conversations are archived to a Markdown file both sides can read.",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "",
+  "icon": "icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh-pet",
+    "cordis",
+    "memory"
+  ],
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE",
+    "icon.svg",
+    "cordis.patch.yml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/dsh-pet-dsh-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/USERNAME/dsh-pet-dsh-bridge/issues"
+  },
+  "homepage": "https://github.com/USERNAME/dsh-pet-dsh-bridge#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "compatibility": {
+      "dshReleases": {
+        "0.2.2-rc.3": "compatible"
+      }
+    }
+  }
+}
