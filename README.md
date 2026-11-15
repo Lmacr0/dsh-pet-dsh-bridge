@@ -53,20 +53,26 @@ $DSH_HOME/dsh-pet/dsh-chat-archive.md
 > 🔒 **建议先备份数据。** 本插件仍在 `0.x` 实验阶段，行为可能随版本调整。
 > 归档文件写入 `$DSH_HOME/dsh-pet/`，不改动宠物自己的 `memory.json`；但**任何插件都无法保证 100% 无副作用**，重要对话请自行留档。
 
+**命令行（推荐）：**
+
 ```bash
-# 1. 克隆到本地
-git clone https://github.com/Lmacr0/dsh-pet-dsh-bridge.git D:\DSH\pet-dsh-bridge
-
-# 2. 在 DSH 插件页面安装本地目录
-#    Plugins → Add plugin → 填 D:\DSH\pet-dsh-bridge → Install
-
-# 3. 重启 DSH
+# desktop = 桌面版；用 `dsh web` 的改填 web
+dsh plugin --profile desktop add github:Lmacr0/dsh-pet-dsh-bridge
 ```
 
-或者用命令行：
+**图形界面：** 打开 **Plugins → Add plugin**，输入下面的地址，点 Install：
+
+```
+github:Lmacr0/dsh-pet-dsh-bridge
+```
+
+**装完需要重启 DSH 才生效。**
+
+**本地开发（改了代码想立即验证）：**
 
 ```bash
-dsh plugin --profile desktop add D:\DSH\pet-dsh-bridge
+git clone https://github.com/Lmacr0/dsh-pet-dsh-bridge.git
+dsh plugin --profile desktop add ./dsh-pet-dsh-bridge
 ```
 
 ### 配置
@@ -169,16 +175,26 @@ $DSH_HOME/dsh-pet/dsh-chat-archive.md
 
 Requires `dsh-pet` first — this plugin depends on the `petApi7340` service it provides.
 
+**CLI (recommended):**
+
 ```bash
-git clone https://github.com/Lmacr0/dsh-pet-dsh-bridge.git D:\DSH\pet-dsh-bridge
+# desktop = DSH Desktop; use `web` instead if you run `dsh web`
+dsh plugin --profile desktop add github:Lmacr0/dsh-pet-dsh-bridge
 ```
 
-Then open **Plugins → Add plugin**, enter the local path, and install. Restart DSH afterwards.
+**Plugins page:** open **Plugins → Add plugin**, enter the address below, and install:
 
-Or from the CLI:
+```
+github:Lmacr0/dsh-pet-dsh-bridge
+```
+
+**Restart DSH after installing.**
+
+**Local development (to test your own edits):**
 
 ```bash
-dsh plugin --profile desktop add D:\DSH\pet-dsh-bridge
+git clone https://github.com/Lmacr0/dsh-pet-dsh-bridge.git
+dsh plugin --profile desktop add ./dsh-pet-dsh-bridge
 ```
 
 ### Configuration
