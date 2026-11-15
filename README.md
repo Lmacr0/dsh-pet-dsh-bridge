@@ -1,4 +1,4 @@
-﻿# dsh-pet-dsh-bridge 🐟
+# dsh-pet-dsh-bridge 🐟
 
 [English](#english) | [中文](#中文)
 
