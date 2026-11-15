@@ -1,4 +1,4 @@
-# dsh-pet-dsh-bridge 🐟
+﻿# dsh-pet-dsh-bridge 🐟
 
 [English](#english) | [中文](#中文)
 
@@ -55,7 +55,7 @@ $DSH_HOME/dsh-pet/dsh-chat-archive.md
 
 ```bash
 # 1. 克隆到本地
-git clone https://github.com/USERNAME/dsh-pet-dsh-bridge.git D:\DSH\pet-dsh-bridge
+git clone https://github.com/Lmacr0/dsh-pet-dsh-bridge.git D:\DSH\pet-dsh-bridge
 
 # 2. 在 DSH 插件页面安装本地目录
 #    Plugins → Add plugin → 填 D:\DSH\pet-dsh-bridge → Install
@@ -170,7 +170,7 @@ $DSH_HOME/dsh-pet/dsh-chat-archive.md
 Requires `dsh-pet` first — this plugin depends on the `petApi7340` service it provides.
 
 ```bash
-git clone https://github.com/USERNAME/dsh-pet-dsh-bridge.git D:\DSH\pet-dsh-bridge
+git clone https://github.com/Lmacr0/dsh-pet-dsh-bridge.git D:\DSH\pet-dsh-bridge
 ```
 
 Then open **Plugins → Add plugin**, enter the local path, and install. Restart DSH afterwards.

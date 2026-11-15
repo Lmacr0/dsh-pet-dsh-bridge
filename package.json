@@ -5,7 +5,7 @@
   "type": "module",
   "main": "lib/index.js",
   "license": "MIT",
-  "author": "",
+  "author": "Lmacr0 (https://github.com/Lmacr0)",
   "icon": "icon.svg",
   "keywords": [
     "dsh",
@@ -24,12 +24,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/dsh-pet-dsh-bridge.git"
+    "url": "git+https://github.com/Lmacr0/dsh-pet-dsh-bridge.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/dsh-pet-dsh-bridge/issues"
+    "url": "https://github.com/Lmacr0/dsh-pet-dsh-bridge/issues"
   },
-  "homepage": "https://github.com/USERNAME/dsh-pet-dsh-bridge#readme",
+  "homepage": "https://github.com/Lmacr0/dsh-pet-dsh-bridge#readme",
   "engines": {
     "node": ">=20"
   },
